@@ -25,8 +25,8 @@ An intelligent system that monitors e-commerce product prices, analyzes historic
 ## Using Docker
 ```docker run -d -p 27017:27017 --name price-tracker-db mongo:latest```
 ## Environment Config
-``````cp .env.example .env
-# Edit .env file with your credentials``````
+```cp .env.example .env
+# Edit .env file with your credentials```
 
 ## Configuration (env)
 ```bash
