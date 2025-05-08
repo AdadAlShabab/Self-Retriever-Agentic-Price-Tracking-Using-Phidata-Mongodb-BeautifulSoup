@@ -57,6 +57,7 @@ report_data = agent.analyze_product("AMZN123")
 
 generator = ReportGenerator()
 generator.generate_pdf_report(report_data, "price_report.pdf")
+```
 price-tracker-agent/
 ├── .env                    # Environment configuration
 ├── main.py                 # Main application entry
@@ -72,6 +73,7 @@ price-tracker-agent/
 │   └── utils/              # Helper functions
 │
 └── tests/                  # Unit and integration tests
+```
 ### Prerequisites
 
 - Python 3.10+
