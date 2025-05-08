@@ -24,8 +24,8 @@ An intelligent system that monitors e-commerce product prices, analyzes historic
 ```pip install -r requirements.txt```
 ## Using Docker
 ```docker run -d -p 27017:27017 --name price-tracker-db mongo:latest```
-## Environment Config
-```bash
+## Usage
+```# Environment Config
 cp .env.example .env
 # Edit .env file with your credentials
 
@@ -64,7 +64,7 @@ agent = PriceDecisionAgent()
 report_data = agent.analyze_product("AMZN123")
 
 generator = ReportGenerator()
-generator.generate_pdf_report(report_data, "price_report.pdf")```
+generator.generate_pdf_report(report_data, "price_report.pdf")
 
 ```bash
 price-tracker-agent/
