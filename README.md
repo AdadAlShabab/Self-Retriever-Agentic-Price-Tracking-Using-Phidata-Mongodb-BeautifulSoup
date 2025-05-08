@@ -37,7 +37,7 @@ DB_NAME=price_tracker
 LOG_LEVEL=INFO```
 
 ## Track Product Price
-```from src.scraper.amazon_scraper import AmazonScraper
+from src.scraper.amazon_scraper import AmazonScraper
 from src.database.crud import CRUD
 from src.database.mongodb import MongoDB
 
@@ -57,7 +57,7 @@ crud.create_price_entry({
     "recorded_at": datetime.utcnow()
 })
 ## Generate Report
-```from src.agent.decision_agent import PriceDecisionAgent
+from src.agent.decision_agent import PriceDecisionAgent
 from src.report.report_generator import ReportGenerator
 
 agent = PriceDecisionAgent()
