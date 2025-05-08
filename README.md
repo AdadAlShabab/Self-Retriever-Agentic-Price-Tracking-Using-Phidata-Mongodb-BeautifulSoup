@@ -64,7 +64,7 @@ agent = PriceDecisionAgent()
 report_data = agent.analyze_product("AMZN123")
 
 generator = ReportGenerator()
-generator.generate_pdf_report(report_data, "price_report.pdf")
+generator.generate_pdf_report(report_data, "price_report.pdf")```
 
 ```bash
 price-tracker-agent/
