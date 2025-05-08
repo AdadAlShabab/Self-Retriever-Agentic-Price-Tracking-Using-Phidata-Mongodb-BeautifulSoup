@@ -27,10 +27,10 @@ An intelligent system that monitors e-commerce product prices, analyzes historic
 # Usage
 ## Environment Config
 cp .env.example .env
-## Edit .env file with your credentials```
+## Edit .env file with your credentials
 
 ## Configuration (env)
-```bash
+```
 MONGODB_URI=mongodb://localhost:27017/price_tracker
 OPENAI_API_KEY=your_openai_key_here
 DB_NAME=price_tracker
