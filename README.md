@@ -26,11 +26,12 @@ An intelligent system that monitors e-commerce product prices, analyzes historic
 ```docker run -d -p 27017:27017 --name price-tracker-db mongo:latest```
 ```cp .env.example .env
 # Edit .env file with your credentials```
-MONGODB_URI=mongodb://localhost:27017/price_tracker
+```MONGODB_URI=mongodb://localhost:27017/price_tracker
 OPENAI_API_KEY=your_openai_key_here
 DB_NAME=price_tracker
-LOG_LEVEL=INFO
-from src.scraper.amazon_scraper import AmazonScraper
+LOG_LEVEL=INFO```
+## Track Product Price
+```from src.scraper.amazon_scraper import AmazonScraper
 from src.database.crud import CRUD
 from src.database.mongodb import MongoDB
 
@@ -48,8 +49,9 @@ crud.create_price_entry({
     "product_id": "AMZN123",
     "price": price,
     "recorded_at": datetime.utcnow()
-})
-from src.agent.decision_agent import PriceDecisionAgent
+})```
+## Generate Report
+```from src.agent.decision_agent import PriceDecisionAgent
 from src.report.report_generator import ReportGenerator
 
 agent = PriceDecisionAgent()
