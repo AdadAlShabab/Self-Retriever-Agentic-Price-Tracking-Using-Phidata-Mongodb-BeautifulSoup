@@ -27,7 +27,7 @@ An intelligent system that monitors e-commerce product prices, analyzes historic
 ## Environment Config
 ```bash
 cp .env.example .env
-# Edit .env file with your credentials```
+# Edit .env file with your credentials
 
 ## Configuration (env)
 ```bash
