@@ -29,7 +29,7 @@ An intelligent system that monitors e-commerce product prices, analyzes historic
 # Edit .env file with your credentials```
 
 ## Configuration (env)
-```MONGODB_URI=mongodb://localhost:27017/price_tracker
+```bashMONGODB_URI=mongodb://localhost:27017/price_tracker
 OPENAI_API_KEY=your_openai_key_here
 DB_NAME=price_tracker
 LOG_LEVEL=INFO```
@@ -64,7 +64,7 @@ report_data = agent.analyze_product("AMZN123")
 generator = ReportGenerator()
 generator.generate_pdf_report(report_data, "price_report.pdf")
 
-```bash
+```
 price-tracker-agent/
 ├── .env                    # Environment configuration
 ├── main.py                 # Main application entry
