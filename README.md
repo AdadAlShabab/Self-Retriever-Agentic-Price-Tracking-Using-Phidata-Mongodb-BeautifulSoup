@@ -54,7 +54,7 @@ crud.create_price_entry({
     "product_id": "AMZN123",
     "price": price,
     "recorded_at": datetime.utcnow()
-})```
+})
 ## Generate Report
 ```from src.agent.decision_agent import PriceDecisionAgent
 from src.report.report_generator import ReportGenerator
