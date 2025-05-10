@@ -66,23 +66,7 @@ report_data = agent.analyze_product("AMZN123")
 generator = ReportGenerator()
 generator.generate_pdf_report(report_data, "price_report.pdf")
 
-```bash
-price-tracker-agent/
-├── .env                    # Environment configuration
-├── main.py                 # Main application entry
-├── requirements.txt        # Python dependencies
-├── Dockerfile              # Container configuration
-│
-├── src/                    # Source code
-│   ├── scraper/            # Website scrapers
-│   ├── database/           # MongoDB operations
-│   ├── analyzer/           # Price analysis logic
-│   ├── agent/              # AI decision components
-│   ├── report/             # Report generation
-│   └── utils/              # Helper functions
-│
-└── tests/                  # Unit and integration tests
-```
+
 ### Prerequisites
 ```
 - Python 3.10+
