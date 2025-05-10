@@ -1,4 +1,4 @@
-# Self-Retriever-Price-Tracking-AI-Agent-Using-Phidata-Mongodb-BeautifulSoup
+# Self Retriever Price Tracking AI Agent Using Phidata Mongodb BeautifulSoup
 
 An intelligent system that monitors e-commerce product prices, analyzes historical trends, and provides AI-driven purchase recommendations.
 
